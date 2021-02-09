@@ -1,0 +1,433 @@
+2021-01-19 13:16:05.974	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 13:16:05.983	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 13:16:05.984	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 13:16:05.984	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 13:16:15.149	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: EOF
+堆栈信息: goroutine 35 [running]:
+runtime/debug.Stack(0xc0004837a0, 0x15c9680, 0xc00003e090)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc000540000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x15c9680, 0xc00003e090)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc000540000)
+	D:/go/gin_web_study/api/UserController.go:19 +0x17c
+github.com/gin-gonic/gin.(*Context).Next(0xc000540000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc000540000)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc000540000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0000f0640, 0xc000540000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0000f0640, 0x1762fe0, 0xc00053c000, 0xc000530100)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0000fe0e0, 0x1762fe0, 0xc00053c000, 0xc000530100)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc00051c0a0, 0x1764a20, 0xc00050e100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:16:25.920	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 13:16:26.421	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 13:16:29.683	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 13:16:29.693	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 13:16:29.695	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 13:16:29.696	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 13:16:37.126	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: EOF
+堆栈信息: goroutine 39 [running]:
+runtime/debug.Stack(0xc0003b17a0, 0x101b6e0, 0xc0004040c0)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc000436000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x101b6e0, 0xc0004040c0)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc000436000)
+	D:/go/gin_web_study/api/UserController.go:19 +0x1a5
+github.com/gin-gonic/gin.(*Context).Next(0xc000436000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc000436000)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc000436000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000378640, 0xc000436000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000378640, 0x11d2fe0, 0xc000430000, 0xc000412100)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004840e0, 0x11d2fe0, 0xc000430000, 0xc000412100)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0003e2000, 0x11d4a20, 0xc000408100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:16:37.879	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: EOF
+堆栈信息: goroutine 39 [running]:
+runtime/debug.Stack(0xc0004477a0, 0x101b6e0, 0xc000404210)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc000436000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x101b6e0, 0xc000404210)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc000436000)
+	D:/go/gin_web_study/api/UserController.go:19 +0x1a5
+github.com/gin-gonic/gin.(*Context).Next(0xc000436000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc000436000)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc000436000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000378640, 0xc000436000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000378640, 0x11d2fe0, 0xc0004300e0, 0xc000412200)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004840e0, 0x11d2fe0, 0xc0004300e0, 0xc000412200)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0003e2000, 0x11d4a20, 0xc000408100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:16:53.084	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: EOF
+堆栈信息: goroutine 39 [running]:
+runtime/debug.Stack(0xc0004477a0, 0x101b6e0, 0xc00003e040)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc00005c000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x101b6e0, 0xc00003e040)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc00005c000)
+	D:/go/gin_web_study/api/UserController.go:19 +0x1a5
+github.com/gin-gonic/gin.(*Context).Next(0xc00005c000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc00005c000)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc00005c000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000378640, 0xc00005c000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000378640, 0x11d2fe0, 0xc000058000, 0xc000050000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004840e0, 0x11d2fe0, 0xc000058000, 0xc000050000)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0003e2000, 0x11d4a20, 0xc000408100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:17:29.450	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: Key: 'AdminLoginVo.Name' Error:Field validation for 'Name' failed on the 'required' tag
+Key: 'AdminLoginVo.Pwd' Error:Field validation for 'Pwd' failed on the 'required' tag
+堆栈信息: goroutine 39 [running]:
+runtime/debug.Stack(0xc0004477a0, 0x101b6e0, 0xc00003e9b0)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc00005c000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x101b6e0, 0xc00003e9b0)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc00005c000)
+	D:/go/gin_web_study/api/UserController.go:19 +0x1a5
+github.com/gin-gonic/gin.(*Context).Next(0xc00005c000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc00005c000)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc00005c000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000378640, 0xc00005c000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000378640, 0x11d2fe0, 0xc0000580e0, 0xc000050200)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004840e0, 0x11d2fe0, 0xc0000580e0, 0xc000050200)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0003e2000, 0x11d4a20, 0xc000408100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:17:53.642	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: Key: 'AdminLoginVo.Name' Error:Field validation for 'Name' failed on the 'required' tag
+Key: 'AdminLoginVo.Pwd' Error:Field validation for 'Pwd' failed on the 'required' tag
+堆栈信息: goroutine 39 [running]:
+runtime/debug.Stack(0xc0004477a0, 0x101b6e0, 0xc00038a170)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc00005c0f0)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x101b6e0, 0xc00038a170)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc00005c0f0)
+	D:/go/gin_web_study/api/UserController.go:19 +0x1a5
+github.com/gin-gonic/gin.(*Context).Next(0xc00005c0f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc00005c0f0)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc00005c0f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000378640, 0xc00005c0f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000378640, 0x11d2fe0, 0xc0003d40e0, 0xc000412100)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004840e0, 0x11d2fe0, 0xc0003d40e0, 0xc000412100)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0003e2000, 0x11d4a20, 0xc000408100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:17:54.407	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: Key: 'AdminLoginVo.Name' Error:Field validation for 'Name' failed on the 'required' tag
+Key: 'AdminLoginVo.Pwd' Error:Field validation for 'Pwd' failed on the 'required' tag
+堆栈信息: goroutine 39 [running]:
+runtime/debug.Stack(0xc0004477a0, 0x101b6e0, 0xc0004041c0)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc0004360f0)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x101b6e0, 0xc0004041c0)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc0004360f0)
+	D:/go/gin_web_study/api/UserController.go:19 +0x1a5
+github.com/gin-gonic/gin.(*Context).Next(0xc0004360f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc0004360f0)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc0004360f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000378640, 0xc0004360f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000378640, 0x11d2fe0, 0xc000430000, 0xc0001b4000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004840e0, 0x11d2fe0, 0xc000430000, 0xc0001b4000)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0003e2000, 0x11d4a20, 0xc000408100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:18:03.215	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: Key: 'AdminLoginVo.Name' Error:Field validation for 'Name' failed on the 'required' tag
+Key: 'AdminLoginVo.Pwd' Error:Field validation for 'Pwd' failed on the 'required' tag
+堆栈信息: goroutine 39 [running]:
+runtime/debug.Stack(0xc0004477a0, 0x101b6e0, 0xc0004043a0)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc0004360f0)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x101b6e0, 0xc0004043a0)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.GetLeaves(0xc0004360f0)
+	D:/go/gin_web_study/api/UserController.go:19 +0x1a5
+github.com/gin-gonic/gin.(*Context).Next(0xc0004360f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc0004360f0)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc0004360f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000378640, 0xc0004360f0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000378640, 0x11d2fe0, 0xc0004301c0, 0xc0001b4100)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004840e0, 0x11d2fe0, 0xc0004301c0, 0xc0001b4100)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0003e2000, 0x11d4a20, 0xc000408100)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 13:18:15.805	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 13:18:16.307	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 13:18:36.392	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 13:18:36.401	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 13:18:36.401	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 13:18:36.402	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 14:07:20.472	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 14:07:20.988	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 14:10:06.339	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 14:10:06.348	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 14:10:06.348	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 14:10:06.349	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 14:11:13.791	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 14:11:14.293	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 14:11:17.950	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 14:11:17.961	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 14:11:17.962	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 14:11:17.963	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 14:11:24.757	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: invalid WriteHeader code 2
+堆栈信息: goroutine 35 [running]:
+runtime/debug.Stack(0xc0000f1510, 0xa0b600, 0xc00008c620)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc000486000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0xa0b600, 0xc00008c620)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+net/http.checkWriteHeaderCode(...)
+	D:/opt/go/src/net/http/server.go:1110
+net/http.(*response).WriteHeader(0xc000484000, 0x2)
+	D:/opt/go/src/net/http/server.go:1144 +0x5e7
+github.com/gin-gonic/gin.(*responseWriter).WriteHeaderNow(...)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/response_writer.go:72
+github.com/gin-gonic/gin.(*responseWriter).Write(0xc000486000, 0xc0000e8a60, 0x13, 0x20, 0x20, 0x0, 0x0)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/response_writer.go:77 +0xb6
+github.com/gin-gonic/gin/render.WriteJSON(0x280366d5858, 0xc000486000, 0xa4ed00, 0xc000089020, 0xf7ae7b00, 0x280366d5858)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/render/json.go:76 +0xdc
+github.com/gin-gonic/gin/render.JSON.Render(...)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/render/json.go:58
+github.com/gin-gonic/gin.(*Context).Render(0xc000486000, 0x2, 0xbbe5a0, 0xc00008c530)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:841 +0x151
+github.com/gin-gonic/gin.(*Context).JSON(...)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:884
+gin_web_study/api.GetLeaves(0xc000486000)
+	D:/go/gin_web_study/api/UserController.go:20 +0x165
+github.com/gin-gonic/gin.(*Context).Next(0xc000486000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc000486000)
+	D:/go/gin_web_study/middleware/exception.go:26 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc000486000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000454640, 0xc000486000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000454640, 0xbc2ea0, 0xc000484000, 0xc0000e0200)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc00046a0e0, 0xbc2ea0, 0xc000484000, 0xc0000e0200)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0000a0a00, 0xbc48e0, 0xc0000964c0)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 14:11:35.802	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 14:11:36.303	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 14:11:49.317	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 14:11:49.326	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 14:11:49.326	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 14:11:49.326	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 14:12:22.448	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 14:12:22.949	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 14:12:25.557	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 14:12:25.565	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 14:12:25.566	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 14:12:25.567	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 14:12:57.002	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 14:12:57.502	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 14:25:42.594	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 14:25:42.603	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 14:25:42.605	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 14:25:42.605	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 14:26:02.754	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 14:26:03.254	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 14:26:08.080	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 14:26:08.089	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 14:26:08.090	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 14:26:08.090	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 14:26:18.563	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 14:26:19.065	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 16:10:39.008	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 16:10:39.019	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 16:10:39.020	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 16:10:39.020	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 17:32:11.034	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 17:32:50.312	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 17:32:50.341	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 17:32:50.342	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 17:32:50.343	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 17:34:00.000	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 17:34:00.506	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 17:34:03.181	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 17:34:03.198	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 17:34:03.199	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 17:34:03.199	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 17:35:04.059	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 17:35:04.561	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 17:35:06.909	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 17:35:06.919	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 17:35:06.920	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 17:35:06.920	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 17:35:47.921	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: 阿斯顿撒旦
+堆栈信息: goroutine 19 [running]:
+runtime/debug.Stack(0xc0000417e8, 0x7fb600, 0x999320)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc0000b2000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x7fb600, 0x999320)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.AdminLogin(...)
+	D:/go/gin_web_study/api/UserController.go:37
+gin_web_study/api.GetLeaves(0xc0000b2000)
+	D:/go/gin_web_study/api/UserController.go:21 +0x45
+github.com/gin-gonic/gin.(*Context).Next(0xc0000b2000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc0000b2000)
+	D:/go/gin_web_study/middleware/exception.go:25 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc0000b2000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000426640, 0xc0000b2000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000426640, 0x9b2de0, 0xc00009a0e0, 0xc0001e3100)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004340e0, 0x9b2de0, 0xc00009a0e0, 0xc0001e3100)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0004ae0a0, 0x9b4860, 0xc00042c0c0)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 17:36:02.163	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: 阿斯顿撒旦
+堆栈信息: goroutine 19 [running]:
+runtime/debug.Stack(0xc0000bf7e8, 0x7fb600, 0x999320)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc0004ce000)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0x7fb600, 0x999320)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.AdminLogin(...)
+	D:/go/gin_web_study/api/UserController.go:37
+gin_web_study/api.GetLeaves(0xc0004ce000)
+	D:/go/gin_web_study/api/UserController.go:21 +0x45
+github.com/gin-gonic/gin.(*Context).Next(0xc0004ce000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc0004ce000)
+	D:/go/gin_web_study/middleware/exception.go:25 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc0004ce000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000426640, 0xc0004ce000)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000426640, 0x9b2de0, 0xc0004ca000, 0xc0004c0100)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc0004340e0, 0x9b2de0, 0xc0004ca000, 0xc0004c0100)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc0004ae0a0, 0x9b4860, 0xc00042c0c0)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 17:36:32.087	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 17:36:32.587	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-19 17:36:38.037	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-19 17:36:38.046	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-19 17:36:38.047	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-19 17:36:38.047	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-19 17:36:46.888	[31mERROR[0m	runtime/panic.go:969	[Exception]未知异常: 阿斯顿撒旦
+堆栈信息: goroutine 7 [running]:
+runtime/debug.Stack(0xc00037b7a8, 0xc1b600, 0xdb9350)
+	D:/opt/go/src/runtime/debug/stack.go:24 +0xa5
+gin_web_study/middleware.Exception.func1(0xc000152d20)
+	D:/go/gin_web_study/middleware/exception.go:16 +0x75
+panic(0xc1b600, 0xdb9350)
+	D:/opt/go/src/runtime/panic.go:969 +0x1c7
+gin_web_study/api.AdminLogin(...)
+	D:/go/gin_web_study/api/UserController.go:39
+gin_web_study/api.GetLeaves(0xc000152d20)
+	D:/go/gin_web_study/api/UserController.go:23 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc000152d20)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+gin_web_study/middleware.Exception(0xc000152d20)
+	D:/go/gin_web_study/middleware/exception.go:25 +0x55
+github.com/gin-gonic/gin.(*Context).Next(0xc000152d20)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x42
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0000a1040, 0xc000152d20)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x685
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0000a1040, 0xdd2e40, 0xc000372000, 0xc0001e2e00)
+	D:/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x155
+net/http.serverHandler.ServeHTTP(0xc00042a0e0, 0xdd2e40, 0xc000372000, 0xc0001e2e00)
+	D:/opt/go/src/net/http/server.go:2843 +0xaa
+net/http.(*conn).serve(0xc000362460, 0xdd48c0, 0xc00035e940)
+	D:/opt/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	D:/opt/go/src/net/http/server.go:2969 +0x36d
+
+2021-01-19 17:37:08.050	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-19 17:37:08.551	[34mINFO[0m	runtime/proc.go:204	Server exiting

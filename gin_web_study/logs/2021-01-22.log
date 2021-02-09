@@ -1,0 +1,52 @@
+2021-01-22 16:05:05.796	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 16:05:05.811	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 16:05:05.812	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 16:05:05.813	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 16:06:30.283	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 16:06:30.784	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 16:06:40.010	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 16:06:40.206	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 16:06:40.207	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 16:06:40.208	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 16:06:54.398	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 16:06:54.898	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 16:07:19.382	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 16:07:19.507	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 16:07:19.508	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 16:07:19.508	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 16:08:08.877	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 16:08:09.378	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 16:08:14.508	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 16:08:14.513	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 16:08:14.514	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 16:08:14.514	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 16:08:28.359	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 16:08:28.860	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 16:19:06.635	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 16:19:06.640	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 16:19:06.641	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 16:19:06.641	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 16:19:39.720	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 16:19:40.222	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 16:28:04.423	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 16:28:04.428	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 16:28:04.429	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 16:28:04.429	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 16:29:32.460	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 16:29:32.961	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 16:29:39.427	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 16:29:39.581	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 16:29:39.586	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 16:29:39.586	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 16:29:51.111	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 16:29:51.613	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 17:03:57.601	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 17:03:57.610	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 17:03:57.611	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 17:03:57.611	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
+2021-01-22 17:04:13.075	[34mINFO[0m	runtime/proc.go:204	Shutting down server...
+2021-01-22 17:04:13.576	[34mINFO[0m	runtime/proc.go:204	Server exiting
+2021-01-22 17:04:39.094	[35mDEBUG[0m	gin_web_study/main.go:25	初始化日志完成
+2021-01-22 17:04:39.210	[34mINFO[0m	gin_web_study/main.go:28	初始化mysql完成
+2021-01-22 17:04:39.211	[34mINFO[0m	gin_web_study/main.go:31	初始化路由完成
+2021-01-22 17:04:39.212	[34mINFO[0m	runtime/proc.go:204	Server is running at 0.0.0.0:8080/%!s(MISSING)
