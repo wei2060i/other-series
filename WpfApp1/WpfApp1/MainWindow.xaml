@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="上位机" Height="450" Width="800" Background="LightGray">
+    <Grid Margin="0,0,0,5.085">
+        <Button x:Name="button" Click="ButtonOne" Content="连接" HorizontalAlignment="Left" Height="24" Margin="400.667,39.24,0,0" VerticalAlignment="Top" Width="77" Background="#FF4EB437"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="180.87,39.24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111.666"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="24" Margin="329.326,39.24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="124.5" Margin="160,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="407" IsReadOnly="True"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="24.167" Margin="225.333,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="AT指令" HorizontalAlignment="Left" Margin="160,232,0,0" VerticalAlignment="Top" Height="24" Width="50"/>
+        <Label x:Name="label3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="IP" HorizontalAlignment="Left" Margin="160,38,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="端口" HorizontalAlignment="Left" Margin="292.536,39.24,0,0" VerticalAlignment="Top" Width="31.79" Height="24"/>
+        <Button x:Name="button1" Click="ButtonTwo" Content="发送" HorizontalAlignment="Left" Margin="376,232,0,0" VerticalAlignment="Top" Width="77" Height="24.167"/>
+        <Button x:Name="button2" Click="ButtonThree" Content="清空文本框" HorizontalAlignment="Left" Margin="490,232,0,0" VerticalAlignment="Top" Width="77" Height="24.167" Background="Yellow"/>
+        <Button x:Name="button3" Click="ButtonFour" Content="保存" HorizontalAlignment="Left" Margin="490,39.24,0,0" VerticalAlignment="Top" Width="75" Height="24"/>
+      
+    </Grid>
+</Window>
